@@ -7,7 +7,9 @@ public class Fizzbuzz {
             } else {
                 if (i%3 == 0) {
                     result += ", " + "Fizz";
-                } else if (i%3 != 0) {
+                } else if (i%5 == 0) {
+                    result += ", " + "Buzz";
+                } else {
                     result += ", " + i;
                 }
             }
