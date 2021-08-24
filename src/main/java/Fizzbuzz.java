@@ -1,7 +1,7 @@
 public class Fizzbuzz {
-    public String generate(Integer upto) {
+    public String generate(Integer upTo) {
         String result = "";
-        for (int i=1; i<=upto; i++) {
+        for (int i=1; i<=upTo; i++) {
             if (i == 1) {
                 result += i;
             } else {
